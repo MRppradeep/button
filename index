@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Link Toggle</title>
+    <style>
+        #toggleButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="toggleButton">Go to Link</button>
+
+<script>
+    let toggle = false;
+    const button = document.getElementById('toggleButton');
+
+    button.addEventListener('click', function() {
+        if (!toggle) {
+            window.location.href = 'https://www.profitablecpmrate.com/btucp3ix?key=02b5e87a636be8df48f4059af351f967';
+        } else {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScfE0oJL9aNU_uY6mzYNwvwK-Xn_kA8GKrAIQkdIZKccuxkSw/viewform';
+        }
+        toggle = !toggle;
+    });
+</script>
+
+</body>
+</html>
